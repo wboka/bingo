@@ -21,95 +21,17 @@
 				
 
 				<div class="row" id="playing-area">
-			<div class="bingo-card col-sm-6 col-md-4 col-lg-3">
-				<table class="table table-condensed table-bingo">
-					<thead>
-						<tr>
-							<th class="bingo-b text-center">B</th>
-							<th class="bingo-i text-center">I</th>
-							<th class="bingo-n text-center">N</th>
-							<th class="bingo-g text-center">G</th>
-							<th class="bingo-o text-center">O</th>
-						</tr>
-					</thead>
-					<tbody>
-						
-							<tr class="text-center">
-								
-                                	<td class="daubable" data-number-called="B11" data-row="1" data-letter="B">11</td>
-                                	<td class="daubable" data-number-called="I23" data-row="1" data-letter="I">23</td>
-									
-	                                	<td class="daubable" data-number-called="N33" data-row="1" data-letter="N">33</td>
-									
-                                	<td class="daubable" data-number-called="G47" data-row="1" data-letter="G">47</td>
-                                	<td class="daubable" data-number-called="O62" data-row="1" data-letter="O">62</td>
-                                
-							</tr>
-						
-							<tr class="text-center">
-								
-                                	<td class="daubable" data-number-called="B7" data-row="2" data-letter="B">7</td>
-                                	<td class="daubable" data-number-called="I21" data-row="2" data-letter="I">21</td>
-									
-	                                	<td class="daubable" data-number-called="N41" data-row="2" data-letter="N">41</td>
-									
-                                	<td class="daubable" data-number-called="G57" data-row="2" data-letter="G">57</td>
-                                	<td class="daubable" data-number-called="O64" data-row="2" data-letter="O">64</td>
-                                
-							</tr>
-						
-							<tr class="text-center">
-								
-                                	<td class="daubable" data-number-called="B9" data-row="3" data-letter="B">9</td>
-                                	<td class="daubable" data-number-called="I19" data-row="3" data-letter="I">19</td>
-									
-										<td class="daubed free" data-row="3" data-letter="N">FREE</td>
-									
-                                	<td class="daubable" data-number-called="G48" data-row="3" data-letter="G">48</td>
-                                	<td class="daubable" data-number-called="O74" data-row="3" data-letter="O">74</td>
-                                
-							</tr>
-						
-							<tr class="text-center">
-								
-                                	<td class="daubable" data-number-called="B4" data-row="4" data-letter="B">4</td>
-                                	<td class="daubable" data-number-called="I29" data-row="4" data-letter="I">29</td>
-									
-	                                	<td class="daubable" data-number-called="N44" data-row="4" data-letter="N">44</td>
-									
-                                	<td class="daubable" data-number-called="G52" data-row="4" data-letter="G">52</td>
-                                	<td class="daubable" data-number-called="O68" data-row="4" data-letter="O">68</td>
-                                
-							</tr>
-						
-							<tr class="text-center">
-								
-                                	<td class="daubable" data-number-called="B5" data-row="5" data-letter="B">5</td>
-                                	<td class="daubable" data-number-called="I16" data-row="5" data-letter="I">16</td>
-									
-	                                	<td class="daubable" data-number-called="N34" data-row="5" data-letter="N">34</td>
-									
-                                	<td class="daubable" data-number-called="G55" data-row="5" data-letter="G">55</td>
-                                	<td class="daubable" data-number-called="O67" data-row="5" data-letter="O">67</td>
-                                
-							</tr>
-						
-					</tbody>
-				</table>
-				<button class="btn btn-block btn-success call-bingo" type="button">Bingo!</button>
-				
-			</div>
+		
 		</div>
 			</div>
 			<div class="col-xs-3">
-				<h2>Balls <span class="badge" id="ball-count">52</span></h2>
+				<h2>Balls <span class="badge" id="ball-count"></span></h2>
 				<div id="bingo-balls"></div>
 			</div>
 		</div>
 
 		<script id="bingo-ball-template" type="text/x-handlebars-template">
 			<div class="bingo-ball bingo-{{ballType}}">{{number}}</div>
-			</div>
 		</script>
 		<script id="bingo-card-template" type="text/x-handlebars-template">
 			<div class="bingo-card col-sm-6 col-md-4 col-lg-3">
