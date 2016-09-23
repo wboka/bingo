@@ -1,0 +1,55 @@
+.bingo-ball {
+	display: inline-block;
+	border-radius: 100%;
+	height: 2.75em;
+	padding: 0.5em;
+	text-align: center;
+	width: 2.75em;
+}
+
+.bingo-card {
+	border: 1px solid #000000;
+}
+
+.bingo-b,
+.bingo-i,
+.bingo-n,
+.bingo-g,
+.bingo-o
+{
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.bingo-b {
+	background: red;
+}
+
+.bingo-i {
+	background: orange;
+}
+
+.bingo-n {
+	background: #ffff00;
+	color: #000000;
+}
+
+.bingo-g {
+	background: #009900;
+}
+
+.bingo-o {
+	background: #003399;
+}
+
+.table-bingo th, .table-bingo td {
+	width: 20%;
+}
+
+.table-bingo td.daubable {
+	cursor: pointer;
+}
+
+.daubed {
+	background: #ABCDEF;
+}
