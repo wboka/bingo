@@ -159,6 +159,8 @@ var bingo = {
 	},
 	isStarted: false,
 	play: function() {
+		$(this).remove();
+		
 		bingo.isStarted = true;
 
 		bingo.initialize();
