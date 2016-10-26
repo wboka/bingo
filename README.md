@@ -4,7 +4,7 @@ Simple javascript based bingo game.
 
 ## Setup
 
-0. Game starts in 5 seconds after page load
+0. Game starts in 5 seconds after the play button is clicked
 1. Click "Add Bingo Card" as needed
 2. Click numbers on each bingo card as they are called
 3. Click "Bingo!" once you have a valid combination of numbers in a winning pattern
