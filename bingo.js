@@ -226,10 +226,9 @@ $(document).ready(function() {
 	bingoBall = Handlebars.compile($("#bingo-ball-template").html());
 
 	$("#add-bingo-card").on("click", bingo.addCard);
+	$("#start-bingo").on("click", bingo.play);
 	$("body").on("click", ".remove-bingo-card", bingo.removeCard);
 	$("body").on("click", "td.daubable", bingo.daub);
 	$("body").on("click", ".call-bingo", bingo.hasBingo);
 	$("#restart-bingo").on("click", bingo.restart);
-
-	bingo.play();
 });
