@@ -163,8 +163,6 @@ var bingo = {
 		
 		bingo.isStarted = true;
 
-		bingo.initialize();
-
 		timer = setInterval(function() {
 			if (bingo.isStarted && $(".remove-bingo-card").length > 0) {
 				$(".remove-bingo-card").remove();
@@ -224,6 +222,8 @@ var bingo = {
 };
 
 $(document).ready(function() {
+	bingo.initialize();
+	
 	bingoCard = Handlebars.compile($("#bingo-card-template").html());
 	bingoBall = Handlebars.compile($("#bingo-ball-template").html());
 
