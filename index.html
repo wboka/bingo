@@ -14,23 +14,23 @@
 			<div class="col-9 bg-light">
 				<h1>Bingo <small><a href="README.md">View README</a></small></h1>
 				<button type="button" id="start-bingo" class="btn btn-primary">
-					<span class="glyphicon glyphicon-play"></span> Play
+					<span class="fa fa-play"></span> Play
 				</button>
 				<button type="button" id="add-bingo-card" class="btn btn-success">
-					<span class="glyphicon glyphicon-plus"></span> Add Bingo Card
+					<span class="fa fa-plus"></span> Add Bingo Card
 				</button>
 				<button type="button" id="restart-bingo" class="btn btn-default">
-					<span class="glyphicon glyphicon-refresh"></span> Restart</button>
+					<span class="fa fa-refresh"></span> Restart</button>
 				<div class="row" id="playing-area"></div>
 			</div>
 			<div class="col-3 bg-warning">
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<div class="panel-title">
-							Balls <span class="badge" id="ball-count"></span>
-						</div>
+				<div class="card">
+					<div class="card-header">
+						Balls <span class="badge" id="ball-count"></span>
 					</div>
-					<div class="panel-body" id="bingo-balls"></div>
+					<div class="card-body">
+						<div id="bingo-balls"></div>
+					</div>
 				</div>
 			</div>
 		</div>
